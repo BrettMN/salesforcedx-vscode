@@ -1,17 +1,11 @@
 {
-  "packages": [
-    "docs",
-    "packages/*"
-  ],
+  "packages": ["docs", "packages/*"],
   "version": "58.14.2",
   "command": {
     "version": {
-      "allowBranch": [
-        "develop",
-        "release/*"
-      ]
+      "allowBranch": ["develop", "release/*"]
     }
   },
   "useNx": true,
-  "useWorkspaces": false
+  "useWorkspaces": true
 }
